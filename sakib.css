@@ -4,9 +4,55 @@
     box-sizing: border-box;
 }
 
+body{
+    height:100vh;
+}
+
 #button{
     padding: 0.5 3em;
     border:none;
     border-radius: 3px;
+    background-color: rgb(129, 126, 131);
+    
+}
+#box{
+    container: 10em;
+    max-width: 24em;
+    max-height: 25em;
+    margin:auto;
+}
+#id{
+    height:20em;
+    width:20em;
+    border:2px solid;
     background-color: blueviolet;
+    margin:20px;
+}
+#id2{
+    height:20em;
+
+    max-width: 15em;
+    background-color: red;
+}
+
+@media (max-width:780px)  {
+    body{
+        font-size: 20px;
+        color:white;
+    }
+
+    
+}
+
+@media (min-width:1260px) {
+    #id{
+        height:auto;
+        width:auto;
+        background-color: transparent;
+        box-shadow: 2px 2px 2px;
+        border-radius: 10px;
+        border-color: red;
+        border-top-left-radius: 4px;
+    }
+    
 }
