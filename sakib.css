@@ -7,8 +7,10 @@
 body{
     height:100vh;
 }
-.swiper{
-    width:600px;
-    width:300px;
-    
+
+button{
+    margin: auto;
+    margin-top: 30%;
+    padding:0.5em 2.5em;
+
 }

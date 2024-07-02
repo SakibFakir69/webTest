@@ -7,6 +7,14 @@ let button=document.getElementById("button");
 let buttonto=document.getElementById("buttonto");
 
 
+button.addEventListener("click",()=>{
+    alert("Welcome my new web page");
+})
+
+buttonto.addEventListener("click",()=>{
+    prompt("Enter your name");
+})
+
 
 button.addEventListener("click",()=>{
     window.scrollTo(0,0);
