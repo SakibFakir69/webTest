@@ -44,3 +44,40 @@
     font-size: medium;
 
 }
+
+/* grid learn ans test
+*/
+#one,#two,#three,#four{
+    min-height: 50px;
+    min-width: 40px;
+    max-height: 300px;
+    max-width:auto;
+    padding: 0.5em;
+    background-color: black;
+    margin:50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:white;
+
+
+
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap:10px;
+    grid-template-rows: minmax(100px,auto);
+
+    
+    
+
+}
+
+#one{
+    grid-column: span 4/2;
+}
+
+#two{
+    grid-column: span 2;
+}
