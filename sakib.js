@@ -11,11 +11,12 @@ let box=document.getElementById("box")
 let text=0;
 button.addEventListener("click",()=>{
     if(input.value== " "){
-        alert("Enter your value")
+        alert("Enter your value");
+        text.stop();
     }
     text++;
     let div=document.createElement("div");
-    let li=document.createElement("li");
+    let li=document.createElement("p");
     li.style.fontSize="1.2em";
     li.style.color="green";
     li.style.fontWeight="blod";
